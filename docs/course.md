@@ -107,7 +107,8 @@ System.out.println(isEqual);
 
 . Compiling and Running
 
-## Presentation at : https://github.com/kodecamp/2021/java
+## Code at   : https://github.com/kodecamp/st2021/code
+## Slides at : https://github.com/kodecamp/st2021/docs
 
 ---
 

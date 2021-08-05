@@ -1,3 +1,4 @@
-fun/*.class
-fun/**/*.class
+./**/*.class
+code/*.class
+code/**/*.class
 target
