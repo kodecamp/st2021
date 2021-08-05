@@ -18,6 +18,7 @@ for (i = 0; i < values.length; i = i + 1) {
 // reusable code to save a single person
 function savePerson({ name, addr }) {
   // TODO: logic to save person
+  console.log("Name: " + name, "Addr: " + addr);
   return "SUCCESS";
 }
 
@@ -31,9 +32,10 @@ people = [
 ];
 
 for (i = 0; i < people.length; i = i + 1) {
-  console.log(people[i]);
   savePerson(people[i]);
 }
 
 //
-people.forEach((person) => savePerson(person));
+people.forEach((person) => {
+  savePerson(person);
+});
