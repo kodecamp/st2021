@@ -103,7 +103,7 @@ System.out.println(isEqual);
 
 # System Setup (Java Development Kit)
 
-. Installing JDK(Java Development Kit) from [sdkman.io](sdkman.io)
+. Installing JDK(Java Development Kit) from [sdkman.io](https://sdkman.io)
 
 . Compiling and Running
 
