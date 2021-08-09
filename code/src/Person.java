@@ -1,8 +1,21 @@
 class Person {
-  int id;
-  String name;
-  Address address;
+  int adharNo;
 
-  Person(int id, String name, Address address) {
+  Person(int no) {
+    this.adharNo = no;
   }
+
+  String name() {
+    return null;
+  }
+
+  String address() {
+    return null;
+  }
+
+  // entry point
+  public static void main(String... args) {
+    System.out.println("Hello Person");
+  }
+
 }
